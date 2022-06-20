@@ -17,6 +17,7 @@ class DateGUI(QWidget):
         self.displayFont.setPointSize(70)
         self.setWindowTitle('Date Night %s' % dateTime)
 
+        self.dateNight.getData()
         """Layouts"""
         self.mainLayout = QVBoxLayout()
         self.functions = QVBoxLayout()

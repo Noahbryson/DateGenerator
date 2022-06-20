@@ -13,9 +13,5 @@ if __name__ == "__main__":
     Today = now.strftime("%m/%d/%Y")
     dateNight = DateGenerator(filePath=filePath)
     widget = DateGUI(dateTime=Today, dateNight=dateNight, app=app)
-    widget.dateNight.getData()
-    item = widget.dateNight.randActivitiy()
-    print(item)
-    
     widget.show()
     app.exec()
